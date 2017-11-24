@@ -1,0 +1,27 @@
+/**
+ * Product 
+ * Author: 柏 81962601
+ * Create Date:2017/8/7 0007 15:45
+ * Last Mondify Date:2017/8/7 0007 15:45
+ */
+.dgg-icon {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-size: cover;
+}
+.down-icon {
+  background-image: url("../../images/uiParts/down_03.png");
+  width: .32rem;
+  height: .16rem;
+}
+.up-icon {
+  background-image: url("../../images/uiParts/up_03.png");
+  width: .32rem;
+  height: .16rem;
+}
+.right-icon {
+  background-image: url("../../images/uiParts/ritgh_03.png");
+  width: .12rem;
+  height: .22rem;
+}

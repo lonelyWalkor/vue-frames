@@ -1,0 +1,258 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/9 0007 14:54
+ * Last Mondify Date:2017/8/7 0007 11:49
+ */
+.dgg-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 38px;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.dgg--btn:focus,
+.dgg--btn:active:focus,
+.dgg--btn.active:focus,
+.dgg--btn.focus,
+.dgg--btn:active.focus,
+.dgg--btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.dgg--btn:hover,
+.dgg--btn:focus,
+.dgg--btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.dgg--btn:active,
+.dgg--btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.dgg--btn.disabled,
+.dgg--btn[disabled],
+fieldset[disabled] .dgg--btn {
+  cursor: not-allowed;
+  opacity: .65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a.dgg--btn.disabled,
+fieldset[disabled] a.dgg--btn {
+  pointer-events: none;
+}
+button.dgg--btn {
+  line-height: normal;
+}
+.dgg--btn-default {
+  color: #656d78;
+  background-color: #fff;
+  border-color: #e6e9ed;
+  border-width: 2px;
+}
+.dgg--btn-default:hover {
+  color: #656d78;
+  background-color: #fff;
+  border-color: #4fc1e9;
+}
+.dgg--btn-grey {
+  color: white;
+  background-color: #ccd1d9;
+  border-color: #ccd1d9;
+  border-width: 2px;
+}
+.dgg--btn-grey:hover {
+  color: white;
+  background-color: #ccd1d9;
+  border-color: #ccd1d9;
+}
+.dgg--btn-info {
+  color: #fff;
+  background-color: #3bafda;
+  border-color: #3bafda;
+}
+.dgg--btn-info:hover {
+  color: #fff;
+  background-color: #4fc1e9;
+  border-color: #4fc1e9;
+}
+.dgg--btn-info:focus,
+.dgg--btn-info.focus {
+  color: #fff;
+  background-color: #3bafda;
+  border-color: #3bafda;
+}
+.dgg--btn-info:active,
+.dgg--btn-info.active,
+.open > .dropdown-toggle.dgg--btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.dgg--btn-info:active:hover,
+.dgg--btn-info.active:hover,
+.open > .dropdown-toggle.dgg--btn-info:hover,
+.dgg--btn-info:active:focus,
+.dgg--btn-info.active:focus,
+.open > .dropdown-toggle.dgg--btn-info:focus,
+.dgg--btn-info:active.focus,
+.dgg--btn-info.active.focus,
+.open > .dropdown-toggle.dgg--btn-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.dgg--btn-info:active,
+.dgg--btn-info.active,
+.open > .dropdown-toggle.dgg--btn-info {
+  background-image: none;
+}
+.dgg--btn-info.disabled,
+.dgg--btn-info[disabled],
+fieldset[disabled] .dgg--btn-info,
+.dgg--btn-info.disabled:hover,
+.dgg--btn-info[disabled]:hover,
+fieldset[disabled] .dgg--btn-info:hover,
+.dgg--btn-info.disabled:focus,
+.dgg--btn-info[disabled]:focus,
+fieldset[disabled] .dgg--btn-info:focus,
+.dgg--btn-info.disabled.focus,
+.dgg--btn-info[disabled].focus,
+fieldset[disabled] .dgg--btn-info.focus,
+.dgg--btn-info.disabled:active,
+.dgg--btn-info[disabled]:active,
+fieldset[disabled] .dgg--btn-info:active,
+.dgg--btn-info.disabled.active,
+.dgg--btn-info[disabled].active,
+fieldset[disabled] .dgg--btn-info.active {
+  background-color: #3bafda;
+  border-color: #3bafda;
+}
+.dgg--btn-info .badge {
+  color: #3bafda;
+  background-color: #fff;
+}
+.dgg--btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.dgg--btn-success:focus,
+.dgg--btn-success:hover {
+  color: #fff;
+  background-color: #91cf91;
+  border-color: #7fc77f;
+}
+.dgg--btn-danger {
+  color: #fff;
+  background-color: #da4453;
+  border-color: #da4453;
+}
+.dgg--btn-danger:focus,
+.dgg--btn-danger.focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+.dgg--btn-danger:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.dgg--btn-danger:active,
+.dgg--btn-danger.active,
+.open > .dropdown-toggle.dgg--btn-danger {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.dgg--btn-danger:active:hover,
+.dgg--btn-danger.active:hover,
+.open > .dropdown-toggle.dgg--btn-danger:hover,
+.dgg--btn-danger:active:focus,
+.dgg--btn-danger.active:focus,
+.open > .dropdown-toggle.dgg--btn-danger:focus,
+.dgg--btn-danger:active.focus,
+.dgg--btn-danger.active.focus,
+.open > .dropdown-toggle.dgg--btn-danger.focus {
+  color: #fff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+.dgg--btn-danger:active,
+.dgg--btn-danger.active,
+.open > .dropdown-toggle.dgg--btn-danger {
+  background-image: none;
+}
+.dgg--btn-danger.disabled,
+.dgg--btn-danger[disabled],
+fieldset[disabled] .dgg--btn-danger,
+.dgg--btn-danger.disabled:hover,
+.dgg--btn-danger[disabled]:hover,
+fieldset[disabled] .dgg--btn-danger:hover,
+.dgg--btn-danger.disabled:focus,
+.dgg--btn-danger[disabled]:focus,
+fieldset[disabled] .dgg--btn-danger:focus,
+.dgg--btn-danger.disabled.focus,
+.dgg--btn-danger[disabled].focus,
+fieldset[disabled] .dgg--btn-danger.focus,
+.dgg--btn-danger.disabled:active,
+.dgg--btn-danger[disabled]:active,
+fieldset[disabled] .dgg--btn-danger:active,
+.dgg--btn-danger.disabled.active,
+.dgg--btn-danger[disabled].active,
+fieldset[disabled] .dgg--btn-danger.active {
+  background-color: #da4453;
+  border-color: #da4453;
+}
+.dgg--btn-danger .badge {
+  color: #da4453;
+  background-color: #fff;
+}
+.dgg--btn-sm {
+  height: 28px;
+  line-height: 24px;
+  padding: 2px 15px;
+  font-size: 13px;
+}
+.dgg--btn.disabled,
+.dgg--btn.disabled.active,
+.dgg--btn.disabled.focus,
+.dgg--btn.disabled:active,
+.dgg--btn.disabled:focus,
+.dgg--btn.disabled:hover,
+.dgg--btn[disabled],
+.dgg--btn[disabled].active,
+.dgg--btn[disabled].focus,
+.dgg--btn[disabled]:active,
+.dgg--btn[disabled]:focus,
+.dgg--btn[disabled]:hover,
+fieldset[disabled] .dgg--btn,
+fieldset[disabled] .dgg--btn.active,
+fieldset[disabled] .dgg--btn.focus,
+fieldset[disabled] .dgg--btn:active,
+fieldset[disabled] .dgg--btn:focus,
+fieldset[disabled] .dgg--btn:hover {
+  border-color: #ccd1d9;
+  background: #ccd1d9;
+}

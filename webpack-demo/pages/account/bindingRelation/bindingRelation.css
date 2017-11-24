@@ -1,0 +1,128 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/7 0007 10:44
+ * Last Mondify Date:2017/8/9 0007 10:44
+ */
+.binding-relation {
+  font-size: 0.3rem;
+  color: #333;
+}
+.binding-relation .text-font {
+  color: #333;
+}
+.binding-relation .border {
+  border-bottom: 1px solid #f0f0f0;
+}
+.binding-relation .img-header {
+  width: 0.8rem;
+  height: 0.8rem;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  top: -0.25rem;
+  display: inline-block;
+  right: 0;
+  vertical-align: top;
+}
+.ul-list {
+  margin-bottom: 0.6rem;
+}
+.ul-list ul {
+  padding: 0 0.2rem;
+}
+.ul-list ul li {
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+}
+.ul-list ul li:last-child {
+  border: none;
+}
+.ul-list ul li a {
+  padding: 0.45rem 0 0.45rem 0;
+  display: block;
+}
+.ul-list .ul-list-1,
+.ul-list .ul-list-2 {
+  background: #fff;
+}
+.binding-relation-btn {
+  padding: 0 0.2rem;
+}
+.binding-relation-btn .btn {
+  text-align: center;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #fff;
+  background: #1786ef;
+  font-size: 0.3rem;
+  width: 7.1rem;
+  height: 0.78rem;
+  line-height: 0.78rem;
+  -moz-border-radius: 0.39rem;
+  -webkit-border-radius: 0.39rem;
+  -o-border-radius: 0.39rem;
+  -ms-border-radius: 0.39rem;
+  border-radius: 0.39rem;
+}
+.ul-list-2 {
+  padding: 0.4rem 0.2rem;
+}
+.ul-list-2 .tit {
+  font-size: 0.32rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+.ul-list-2 .p-tit {
+  font-size: 0.24rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+.ul-list-2 .binding-relation-btn {
+  margin-top: 1rem;
+  text-align: center;
+}
+.ul-list-2 .binding-relation-btn a.btn1 {
+  background: url(../../../images/account/icon-btn.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+  -moz-border-radius: 0.49rem;
+  -webkit-border-radius: 0.49rem;
+  -o-border-radius: 0.49rem;
+  -ms-border-radius: 0.49rem;
+  border-radius: 0.49rem;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #fff;
+  height: 0.78rem;
+  width: 6.42rem;
+  line-height: 0.78rem;
+}
+.ul-list-2 .binding-relation-btn .btn2 {
+  background: url(../../../images/account/icon-btn-2.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+  -moz-border-radius: 0.49rem;
+  -webkit-border-radius: 0.49rem;
+  -o-border-radius: 0.49rem;
+  -ms-border-radius: 0.49rem;
+  border-radius: 0.49rem;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #fff;
+  height: 0.78rem;
+  width: 6.42rem;
+  line-height: 0.78rem;
+}

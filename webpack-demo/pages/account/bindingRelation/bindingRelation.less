@@ -1,0 +1,107 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/7 0007 10:44
+ * Last Mondify Date:2017/8/9 0007 10:44
+ */
+@import "../../../utils/less/base";
+
+.binding-relation{
+  font-size:0.3rem;
+  color:#333;
+  .text-font{ color:#333; }
+  .border{ border-bottom:1px solid #f0f0f0; }
+  .img-header{
+    width:0.8rem;
+    height:0.8rem;
+    .rounded-corners(50%);
+    position: relative;
+    top: -0.25rem;
+    display: inline-block;
+    right: 0;
+    vertical-align: top;
+    }
+  }
+.ul-list{
+  margin-bottom:0.6rem;
+  ul{
+    padding:0 0.2rem;
+    li{
+      .binding-relation .border;
+      &:last-child{
+        border:none;
+        }
+      position:relative;
+      a{
+        padding:0.45rem 0 0.45rem 0;
+        display:block;
+        }
+      }
+    }
+  .ul-list-1, .ul-list-2{
+    background:@color-default;
+    }
+  }
+.binding-relation-btn{
+  padding:0 0.2rem;
+  .btn{
+    text-align:center;
+    .inline-block;
+    color:@color-default;
+    background:#1786ef;
+    font-size:0.3rem;
+    width:7.1rem;
+    height:0.78rem;
+    line-height:0.78rem;
+    .rounded-corners(0.39rem);
+    }
+  }
+
+.icon-btn() {
+  .background-image("account/icon-btn.png");
+  width:0.24rem;
+  height:0.36rem;
+  }
+.icon-btn2() {
+  .background-image("account/icon-btn-2.png");
+  width:0.24rem;
+  height:0.36rem;
+  }
+
+.ul-list-2{
+  padding:0.4rem 0.2rem;
+  .tit{
+    font-size:0.32rem;
+    color:#333;
+    margin-bottom:0.3rem;
+    }
+  .p-tit{ font-size:0.24rem; color:#999; margin-bottom:0.5rem;}
+  .binding-relation-btn{
+    margin-top:1rem;
+    text-align:center;
+    a.btn1{
+      .icon-btn;
+      .rounded-corners(0.49rem);
+      .inline-block;
+      font-size:0.32rem;
+      text-align:center;
+      color:@color-default;
+      height:0.78rem;
+      width:6.42rem;
+      line-height:0.78rem;
+      }
+    .btn2{
+      .icon-btn2;
+      .rounded-corners(0.49rem);
+      .inline-block;
+      font-size:0.32rem;
+      text-align:center;
+      color:@color-default;
+      height:0.78rem;
+      width:6.42rem;
+      line-height:0.78rem;
+      }
+    }
+  }
+
+

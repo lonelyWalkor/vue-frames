@@ -1,0 +1,25 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/10 0010 17:22
+ * Last Mondify Date:2017/8/10 0010 17:22
+ */
+.icon-login-close-pass {
+  background: url(../../../images/account/icon-login-true.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.find-pwd-success {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+.find-pwd-success .icon-login-close-pass {
+  margin-bottom: 0.4rem;
+}
+.find-pwd-success .success-text {
+  font-size: 0.32rem;
+}
+.find-pwd-success .success-text a {
+  text-decoration: underline;
+}

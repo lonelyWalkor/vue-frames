@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>找回密码</title>
+    <link rel="stylesheet" type="text/css" href="../../../app.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../pages/account/findPwd/findPwd.css"/>
+    <script>
+        // 路径配置放置最前
+        window.GG_WX_H5 = window.GG_WX_H5 || {};
+        window.GG_WX_H5.sites = {
+            'static': ""
+        };
+    </script>
+    <script src="../../../app.js"></script>
+</head>
+<body class="dgg-layout dgg-bg-default" data-layout="100*750">
+<div class="dgg-wrap">
+        <div class="dgg-login">
+            <div class="dgg-login-tab">
+
+                <div class="dgg-login-tab-main">
+                    <div class="item-con item-shortcut">
+                        <div class="input-phone input-base login-focus">
+                        <i class="dgg-icon  icon-login-phone"></i>
+                        <input class="input-text input-phone-code" type="number" maxlength="11" placeholder="请输入手机号码">
+                        <i class="dgg-icon icon-login-close-text"></i>
+                    </div>
+                        <div class="input-code input-base">
+                            <i class="dgg-icon icon-login-safe"></i>
+                            <input class="input-text input-pass" type="text" placeholder="请输入验证码">
+                            <span class="login-shu">丨</span>
+                            <span class="login-get-code">获取验证码</span>
+                        </div>
+                        <div class="point-out">
+                            <i class="dgg-icon icon-login-sigh"></i>
+                            <span>当前手机号尚未注册</span>，
+                            <a class="dgg-a01" href="">去注册</a>
+                        </div>
+                        <div class="login-btn">
+                            <a class="dgg-btn disabled js-findpwd-btn" href="javascript:void(0);">下一步</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<script src="../../../utils/base/app-ui.js"></script>
+<script src="../../../pages/account/findPwd/findPwd.js"></script>
+</body>
+</html>

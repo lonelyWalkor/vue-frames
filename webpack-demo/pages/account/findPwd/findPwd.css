@@ -1,0 +1,287 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/10 0010 17:22
+ * Last Mondify Date:2017/8/10 0010 17:22
+ */
+.icon-login-close-pass {
+  background: url(../../../images/account/icon-login-close-pass.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.3rem;
+  height: 0.14rem;
+}
+.icon-login-close-text {
+  background: url(../../../images/account/icon-login-close-text.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.icon-login-lock {
+  background: url(../../../images/account/icon-login-lock.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.icon-login-look-pass {
+  background: url(../../../images/account/icon-login-look-pass.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.3rem;
+  height: 0.19rem;
+}
+.icon-login-phone {
+  background: url(../../../images/account/icon-login-phone.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.icon-login-safe {
+  background: url(../../../images/account/icon-login-safe.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.icon-login-sigh {
+  background: url(../../../images/account/icon-login-sigh.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.icon-login-true {
+  background: url(../../../images/account/icon-login-true.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.dgg-login-tab {
+  margin-bottom: 1rem;
+}
+.dgg-login-tab .dgg-login-tab-nav {
+  background: #f9f9f9;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  font-size: 0.36rem;
+  border-bottom: 1px solid #eee;
+}
+.dgg-login-tab .dgg-login-tab-nav li {
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.dgg-login-tab .dgg-login-tab-nav li:after {
+  position: absolute;
+  bottom: 0;
+  left: 0.9rem;
+  content: ' ';
+  background: transparent;
+  width: 2rem;
+  height: 0.04rem;
+}
+.dgg-login-tab .dgg-login-tab-nav li.on {
+  color: #1786ef;
+}
+.dgg-login-tab .dgg-login-tab-nav li.on:after {
+  background: #1786ef;
+}
+.item-shortcut {
+  padding: 1rem 0.55rem;
+}
+.item-shortcut .input-text {
+  height: 0.36rem;
+  font-size: 0.32rem;
+  border: none;
+}
+.item-shortcut .input-phone {
+  position: relative;
+  padding: 0.02rem 0.6rem 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item-shortcut .input-phone .input-phone-code {
+  width: 100%;
+}
+.item-shortcut .input-phone .dgg-icon {
+  position: absolute;
+}
+.item-shortcut .input-phone .dgg-icon.icon-login-phone {
+  top: 0;
+  left: 0;
+}
+.item-shortcut .input-phone .dgg-icon.icon-login-close-text {
+  top: 0;
+  right: 0;
+}
+.item-shortcut .input-phone.login-focus {
+  border-color: #fa4f4f;
+}
+.item-shortcut .input-phone.login-focus .dgg-icon.icon-login-phone {
+  background: url(../../../images/account/icon-login-phonehv.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.item-shortcut .input-code {
+  position: relative;
+  padding: 0.02rem 0 0.25rem 0.6rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item-shortcut .input-code .input-pass {
+  width: 3.35rem;
+}
+.item-shortcut .input-code .login-shu {
+  color: #d9d9d9;
+  font-size: 0.32rem;
+}
+.item-shortcut .input-code .login-get-code {
+  font-size: 0.28rem;
+  color: #1786ef;
+}
+.item-shortcut .input-code .dgg-icon {
+  position: absolute;
+}
+.item-shortcut .input-code .dgg-icon.icon-login-safe {
+  top: 0;
+  left: 0;
+}
+.item-shortcut .input-code.login-focus {
+  border-color: #fa4f4f;
+}
+.item-shortcut .input-code.login-focus .dgg-icon.icon-login-safe {
+  background: url(../../../images/account/icon-login-safehv.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.item-shortcut .login-btn {
+  margin-top: 1rem;
+  text-align: center;
+}
+.item-shortcut .login-btn a {
+  background: url(../../../images/account/icon-btn.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+  -moz-border-radius: 0.49rem;
+  -webkit-border-radius: 0.49rem;
+  -o-border-radius: 0.49rem;
+  -ms-border-radius: 0.49rem;
+  border-radius: 0.49rem;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #fff;
+  height: 0.78rem;
+  width: 6.42rem;
+  line-height: 0.78rem;
+}
+.item-account {
+  padding: 1rem 0.55rem;
+}
+.item-account .input-text {
+  height: 0.36rem;
+  font-size: 0.32rem;
+  border: none;
+}
+.item-account .input-phone {
+  position: relative;
+  padding: 0.02rem 0.6rem 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item-account .input-phone .input-phone-code {
+  width: 100%;
+}
+.item-account .input-phone .dgg-icon {
+  position: absolute;
+}
+.item-account .input-phone .dgg-icon.icon-login-phone {
+  top: 0;
+  left: 0;
+}
+.item-account .input-phone .dgg-icon.icon-login-close-text {
+  top: 0;
+  right: 0;
+}
+.item-account .input-phone.login-focus {
+  border-color: #fa4f4f;
+}
+.item-account .input-phone.login-focus .dgg-icon.icon-login-phone {
+  background: url(../../../images/account/icon-login-phonehv.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.item-account .input-code {
+  position: relative;
+  padding: 0.02rem 0.6rem 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item-account .input-code .input-pass {
+  width: 100%;
+}
+.item-account .input-code .dgg-icon {
+  position: absolute;
+}
+.item-account .input-code .dgg-icon.icon-login-safe {
+  top: 0;
+  left: 0;
+}
+.item-account .input-code .dgg-icon.icon-login-look-pass {
+  top: 0.1rem;
+  right: 0;
+}
+.item-account .input-code .dgg-icon.icon-login-close-pass {
+  top: 0.1rem;
+  right: 0;
+}
+.item-account .input-code.login-focus {
+  border-color: #fa4f4f;
+}
+.item-account .input-code.login-focus .dgg-icon.icon-login-safe {
+  background: url(../../../images/account/icon-login-safehv.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+}
+.item-account .login-btn {
+  margin-top: 1rem;
+  text-align: center;
+}
+.item-account .login-btn a {
+  background: url(../../../images/account/icon-btn.png) no-repeat transparent;
+  background-size: 100%;
+  width: 0.24rem;
+  height: 0.36rem;
+  -moz-border-radius: 0.49rem;
+  -webkit-border-radius: 0.49rem;
+  -o-border-radius: 0.49rem;
+  -ms-border-radius: 0.49rem;
+  border-radius: 0.49rem;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #fff;
+  height: 0.78rem;
+  width: 6.42rem;
+  line-height: 0.78rem;
+}
+.point-out {
+  font-size: 0.28rem;
+}
+.point-out .dgg-icon {
+  position: relative;
+  top: 0.1rem;
+  left: 0;
+}
+.point-out span {
+  color: #fa4f4f;
+}
+.point-out a {
+  text-decoration: underline;
+}

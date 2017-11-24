@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>顶呱呱-积分商城</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../app.css"/>
+    <link rel="stylesheet" type="text/css" href="3-1.css"/>
+    <script>
+        // 路径配置放置最前
+        window.GG_WX_H5 = window.GG_WX_H5 || {};
+        window.GG_WX_H5.sites = {
+            'static': "${staticDomain}"
+        };
+    </script>
+    <script src="../../../../../app.js"></script>
+</head>
+<body class="dgg-layout" data-layout="100*750">
+<div class="dgg-wrap">
+    <div id="content">
+
+        <!-- 本例主要代码 Start ================================ -->
+        <div id="banner-focus-31" class="banner-focus-31">
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="#"><img _src="http://placehold.it/750x260/e7eeff" src="../../../../../images/plugs/touchSlide/blank.png" /></a></li>
+                    <li><a href="#"><img _src="http://placehold.it/750x260/f4fcff" src="../../../../../images/plugs/touchSlide/blank.png"/></a></li>
+                    <li><a href="#"><img _src="http://placehold.it/750x260/feb21e" src="../../../../../images/plugs/touchSlide/blank.png"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="../../../../../utils/base/app-ui.js"></script>
+<script src="../../TouchSlide.1.0.js"></script>
+
+<script type="text/javascript">
+    (function($,D){
+        $(function(){
+            D.TouchSlide({
+                slideCell:"#banner-focus-31",
+                titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                mainCell:".bd ul",
+                effect:"left",
+                autoPlay:true,//自动播放
+                autoPage:true, //自动分页
+                switchLoad:"_src" //切换加载，真实图片路径为"_src"
+            });
+        });
+
+    })(Zepto,DGG);
+
+</script>
+</body>
+</html>

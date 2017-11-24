@@ -1,0 +1,114 @@
+/**
+ * Product
+ * Author: 柏 81962601
+ * Create Date:2017/8/7 0007 11:49
+ * Last Mondify Date:2017/8/7 0007 11:49
+ */
+body.dgg-layout:before {
+  position: absolute;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 9999;
+}
+body.dgg-bg-default {
+  background: #fff;
+}
+body.dgg-bg {
+  background: #f6f5fb;
+}
+body.dgg-bg2 {
+  background: #f9f9f9;
+}
+body.dgg-bg3 {
+  background: #f5f5fa;
+}
+.dgg-box-nodata {
+  vertical-align: middle;
+  font-size: 0.14rem;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  color: #999;
+  text-rendering: optimizelegibility;
+  text-align: center;
+}
+.dgg-box-nodata .dgg-box-nodata-icon {
+  display: block;
+}
+.dgg-box-nodata .dgg-icon-nodata-130x163 {
+  width: 1.3rem;
+  height: 1.63rem;
+  margin: 0 auto 10px;
+  background: url(../../../images/goods-error.png) no-repeat transparent;
+  background-size: 100%;
+  background-size: 100% 100%;
+}
+.dgg-box-nodata .dgg-icon-nodata-130x163 {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 auto 10px;
+  background: url(../../../images/loading/state_img_nothing@2x.png) no-repeat transparent;
+  background-size: 100%;
+  background-size: 100% 100%;
+}
+.dgg-box-nodata .dgg-box-nodata-text {
+  vertical-align: middle;
+  line-height: 1.4em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.dgg-loading {
+  text-align: center;
+  font-size: 0.16rem;
+  color: #a9a9a9;
+  margin-top: 45px;
+}
+.dgg-loading i {
+  background: url(../../../images/loading/loading.gif) no-repeat transparent;
+  background-size: 100%;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe7e46+0,fa4f73+100 */
+.dgg-get-index {
+  background: #fe7e46;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fe7e46 0%, #fa4f73 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fe7e46 0%, #fa4f73 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fe7e46 0%, #fa4f73 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7e46', endColorstr='#fa4f73', GradientType=0);
+  /* IE6-9 */
+  height: 0.48rem;
+  line-height: 0.48rem;
+  width: 1.3rem;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0;
+  text-align: center;
+  border-top-left-radius: 0.24rem;
+  border-bottom-left-radius: 0.24rem;
+}
+.dgg-get-index a {
+  font-size: 0.24rem;
+  color: #fff;
+}
+.table-default {
+  width: 100%;
+}
+.table-default td {
+  padding: 0.1rem;
+  font-size: 0.3rem;
+  color: #333;
+}
+.table-default td a {
+  color: #333;
+}

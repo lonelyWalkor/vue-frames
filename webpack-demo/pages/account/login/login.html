@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>快捷登录</title>
+    <link rel="stylesheet" type="text/css" href="../../../app.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../pages/account/login/login.css"/>
+    <script>
+        // 路径配置放置最前
+        window.GG_WX_H5 = window.GG_WX_H5 || {};
+        window.GG_WX_H5.sites = {
+            static: ""
+        };
+    </script>
+    <script src="../../../app.js"></script>
+</head>
+<body class="dgg-layout dgg-bg-default" data-layout="100*750">
+
+
+<div class="dgg-wrap">
+    <div class="dgg-login">
+        <div class="dgg-login-tab">
+            <div class="dgg-login-tab-nav">
+                <ul>
+                    <li class="on">快捷登录</li>
+                    <li>账号登录</li>
+                </ul>
+            </div>
+            <div class="dgg-login-tab-main">
+                <div class="item-con item-shortcut">
+                    <div class="input-phone input-base">
+                        <i class="dgg-icon  icon-login-phone"></i>
+                        <input class="input-text input-phone-code" type="number" size="5"
+                               oninput="if(value.length>11)value=value.slice(0,11)" placeholder="请输入手机号码">
+                        <i class="dgg-icon icon-login-close-text js-close-text1"></i>
+                    </div>
+                    <div class="input-code input-base">
+                        <i class="dgg-icon icon-login-safe"></i>
+                        <input class="input-text input-pass" type="text" placeholder="请输入验证码">
+                        <span class="login-shu">丨</span>
+                        <span class="login-get-code">获取验证码</span>
+                    </div>
+                    <div class="login-btn">
+                        <a class="dgg-btn dgg-btn-1 disabled" href="javascript:void(0);">登录</a>
+                    </div>
+                </div>
+                <div class="item-con item-account" style="display: none;">
+                    <div class="input-phone input-base">  <!--焦点状态 login-focus-->
+                        <i class="dgg-icon  icon-login-phone"></i>
+                        <input class="input-text input-phone-code" type="number" maxlength="11"
+                               placeholder="请输入手机号码/会员号">
+                        <i class="dgg-icon icon-login-close-text js-close-text2"></i>
+                    </div>
+                    <div class="input-code input-base">
+                        <i class="dgg-icon icon-login-safe"></i>
+                        <input class="input-text input-pass" type="password" placeholder="请输入密码">
+                        <i class="dgg-icon icon-login-close-pass"></i>
+                    </div>
+                    <div class="f-tar">
+                        <a class="dgg-a01 fs24" href="javascript:void(0);">忘记密码</a>
+                    </div>
+                    <div class="login-btn">
+                        <a class="dgg-btn dgg-btn-2 disabled" href="javascript:void(0);">登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dgg-login-banner">
+            <div class="login-banner-top">
+                <img width="100%" src="../../../images/account/icon-banner.jpg" alt="">
+            </div>
+            <div class="login-banner-bottom">
+                <img src="../../../images/uiParts/dgg-code-jituan.png" alt="">
+                <p class="p-text f-tac">长按识别</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="../../../utils/plugs/layer.mobile/layer.js"></script>
+<script src="../../../utils/base/app-ui.js"></script>
+
+<script src="../../../pages/account/login/login.js"></script>
+
+
+</body>
+</html>
