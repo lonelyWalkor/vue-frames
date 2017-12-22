@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1513930351102" clover="3.2.0">
+  <project timestamp="1513930351102" name="All files">
+    <metrics statements="37" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="19" coveredmethods="0" elements="78" coveredelements="0" complexity="0" loc="37" ncloc="37" packages="2" files="3" classes="3">
+      <package name="src">
+        <metrics statements="24" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <file name="App.vue" path="F:\SVNALL\pahotUnion2\trunk\09.Implements\pahot-static\pahot-business-front\src\App.vue">
+          <metrics statements="17" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="stmt"/>
+        </file>
+        <file name="store.js" path="F:\SVNALL\pahotUnion2\trunk\09.Implements\pahot-static\pahot-business-front\src\store.js">
+          <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.login">
+        <metrics statements="13" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <file name="login.vue" path="F:\SVNALL\pahotUnion2\trunk\09.Implements\pahot-static\pahot-business-front\src\components\login\login.vue">
+          <metrics statements="13" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="9" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
